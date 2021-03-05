@@ -8,38 +8,20 @@ body {
   font-size: 1.4rem;
 }
 
-/* START COMMON */
-.green-color {
-  background-color: green;
-}
-
-.cyan-color {
-  background-color: cyan;
-}
-
-.yellow-color {
-  background-color: yellow;
-}
-
-/* END COMMON */
-
-
-
-
-
 
 .list {
   display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 -20px;
 }
 
-.list .list__item {
-  width: 18%;
-  height: 10rem;
-  
+.list__item {
+  margin: 0 20px;
+  width: calc(33.33% - 40px);
 }
 
-.list .list__item:last-child {
-  margin-left: auto;
-  background-color: red;
+.list__image {
+  width: 100%;
 }
-

@@ -1,1 +1,1 @@
-trường hợp khi có 3 div 2 div nằm sát mép bên trái và 1 div nằm sát mép bên phải
+trường hợp khi có 5 div và giữa các div có khoảng cách ở giữa và các div sát mép hai bên lề
