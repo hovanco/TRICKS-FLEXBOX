@@ -1,0 +1,45 @@
+html {
+  /* 1rem = 10px  */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+}
+
+/* START COMMON */
+.green-color {
+  background-color: green;
+}
+
+.cyan-color {
+  background-color: cyan;
+}
+
+.yellow-color {
+  background-color: yellow;
+}
+
+/* END COMMON */
+
+
+
+
+
+
+.list {
+  display: flex;
+}
+
+.list .list__item {
+  width: 18%;
+  height: 10rem;
+  
+}
+
+.list .list__item:last-child {
+  margin-left: auto;
+  background-color: red;
+}
+
